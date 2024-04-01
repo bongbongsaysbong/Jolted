@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:crossbow"
+        ],
+        "nbt": "{jolted:{gun:{is_gun:1b}}}"
+      }
+    }
+  }
+}

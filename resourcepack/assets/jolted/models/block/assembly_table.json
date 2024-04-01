@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "jolted:block/assembly_table/side",
+    "north": "jolted:block/assembly_table/side",
+    "south": "jolted:block/assembly_table/side",
+    "east": "jolted:block/assembly_table/side",
+    "west": "jolted:block/assembly_table/side",
+    "up": "jolted:block/assembly_table/top",
+    "down": "jolted:block/assembly_table/bottom"
+  }
+}

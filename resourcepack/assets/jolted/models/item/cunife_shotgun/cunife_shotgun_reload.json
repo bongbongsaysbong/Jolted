@@ -1,0 +1,113 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "jolted:item/cunife_shotgun",
+		"particle": "jolted:item/cunife_shotgun"
+	},
+	"elements": [
+		{
+			"name": "Thingy",
+			"from": [7, 4, 11],
+			"to": [10, 7, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 5.5, 13.5]},
+			"faces": {
+				"north": {"uv": [3, 8, 4.5, 9.5], "texture": "#0"},
+				"east": {"uv": [0, 10.5, 2.5, 12], "texture": "#0"},
+				"south": {"uv": [4.5, 8, 6, 9.5], "texture": "#0"},
+				"west": {"uv": [2.5, 10.5, 0, 12], "texture": "#0"},
+				"up": {"uv": [0, 8, 1.5, 10.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [1.5, 8, 3, 10.5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Thingy",
+			"from": [8.5, 2, 9],
+			"to": [8.5, 4, 14],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.5, 4, 13]},
+			"faces": {
+				"east": {"uv": [5, 15, 7.5, 16], "texture": "#0"},
+				"west": {"uv": [7.5, 15, 5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [7.5, 4, 15],
+			"to": [9.5, 7, 21],
+			"rotation": {"angle": 45, "axis": "x", "origin": [9, 5.5, 14.5]},
+			"faces": {
+				"north": {"uv": [3, 8, 4.5, 9.5], "texture": "#0"},
+				"east": {"uv": [0, 14.5, 3, 16], "texture": "#0"},
+				"south": {"uv": [2, 13, 3, 14.5], "texture": "#0"},
+				"west": {"uv": [3, 14.5, 0, 16], "texture": "#0"},
+				"up": {"uv": [3, 13, 4, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 13, 5, 16], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Barrels",
+			"from": [6, 5, -3],
+			"to": [11, 7, 11],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8.5, 5, 4]},
+			"faces": {
+				"north": {"uv": [7, 0, 9.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 0, 7, 1], "texture": "#0"},
+				"south": {"uv": [7, 1, 9.5, 2], "texture": "#0"},
+				"west": {"uv": [7, 0, 0, 1], "texture": "#0"},
+				"up": {"uv": [0, 1, 2.5, 8], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2.5, 1, 5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Barrels",
+			"from": [7, 4, 4],
+			"to": [10, 5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 5, 4]},
+			"faces": {
+				"north": {"uv": [13, 0, 14.5, 0.5], "texture": "#0"},
+				"east": {"uv": [9.5, 0, 13, 0.5], "texture": "#0"},
+				"south": {"uv": [7, 1, 9.5, 2], "texture": "#0"},
+				"west": {"uv": [13, 0, 9.5, 0.5], "texture": "#0"},
+				"up": {"uv": [14.5, 3.5, 16, 7], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [14.5, 0, 16, 3.5], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-12.5, 0, 0],
+			"translation": [0, 2, -5.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-12.5, 0, 0],
+			"translation": [0, 2, -5.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [23, 16, 2],
+			"translation": [7.75, 1.75, -5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [23, 16, 2],
+			"translation": [7.75, 1.75, -5]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [81, -54.18, 82.7],
+			"translation": [-2.5, 2.75, 0],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"head": {
+			"translation": [0, 8.5, -14.5]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 2, 0]
+		}
+	}
+}

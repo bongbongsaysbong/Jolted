@@ -1,0 +1,32 @@
+{
+  "parent": "jolted:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "jolted.gun_charge": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "item": {
+          "tag": "nucleus:useable_item"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jolted:item/gun/using_item"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

@@ -1,0 +1,131 @@
+{
+	"parent": "minecraft:block/structure_block",
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 8362000
+		},
+		"model": "nucleus:item/null"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362001
+		},
+		"model": "jolted:item/rose_gold_ingot"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362002
+		},
+		"model": "jolted:item/cunife_ingot"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362003
+		},
+		"model": "jolted:item/electrum_ingot"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362004
+		},
+		"model": "jolted:item/rubrum_ingot"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362005
+		},
+		"model": "jolted:item/pigsteel_ingot"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362006
+		},
+		"model": "jolted:item/iron_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362007
+		},
+		"model": "jolted:item/gold_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362008
+		},
+		"model": "jolted:item/copper_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362009
+		},
+		"model": "jolted:item/netherite_scrap_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362010
+		},
+		"model": "jolted:item/electrum_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362011
+		},
+		"model": "jolted:item/cunife_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362012
+		},
+		"model": "jolted:item/netherite_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362013
+		},
+		"model": "jolted:item/pigsteel_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362014
+		},
+		"model": "jolted:item/rubrum_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362015
+		},
+		"model": "jolted:item/iron_bullet"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362016
+		},
+		"model": "jolted:item/rose_gold_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362017
+		},
+		"model": "jolted:item/anirrum_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362018
+		},
+		"model": "jolted:item/charonite_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362019
+		},
+		"model": "jolted:item/elderskin_inlay_coin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8362020
+		},
+		"model": "jolted:item/teeyel_coin"
+	  }
+	]
+}

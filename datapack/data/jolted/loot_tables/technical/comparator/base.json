@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:8362000,jolted:{id:\"comparator_output\"},nucleus:{illegal_item:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "jolted:technical/comparator/base"
+}

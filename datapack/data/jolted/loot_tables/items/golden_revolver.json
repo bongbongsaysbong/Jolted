@@ -1,0 +1,118 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362004,jolted:{id:\"golden_revolver\",prevents_crossbow_firing:1b,gun:{is_gun:1b,reload_state:0,models:{default:8362004,reload:8362005},bullets:0,maximum_bullets:4,charge_time:3,range:40,gun_type:\"pistol\",damage:8}},HideFlags:32,ChargedProjectiles:[{id:\"minecraft:air\",Count:1b},{},{}],Charged:1b,nucleus:{durability:[400,400],repaired:1b,prevent_striders:1b},sanguine:{allow_pus_repair:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    400,
+                    400
+                  ]
+                },
+                {
+                  "translate": "jolted.tooltip",
+                  "font": "jolted:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.jolted","font":"minecraft:default","color":"#ffae17","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "ui.jolted.gun_description.charge",
+                  "color": "#faef8c",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.sneak","color":"#f7dc60"}
+                  ]
+                },
+                {
+                  "translate": "ui.jolted.gun_description.use",
+                  "color": "#faef8c",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.use","color":"#f7dc60"}
+                  ]
+                },
+                "",
+                {
+                  "translate": "ui.jolted.gun_description",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                  "translate": "ui.jolted.gun_description.bullets",
+                  "color": "#faef8c",
+                  "italic": false,
+                  "with": [
+                    0,
+                    4
+                  ]
+                 }
+                ],
+                [
+                  " ",
+                  {
+                  "translate": "ui.jolted.gun_description.damage",
+                  "color": "#faef8c",
+                  "italic": false,
+                  "with": [
+                    8
+                  ]
+                 }
+                ],
+                [
+                  " ",
+                  {
+                  "translate": "ui.jolted.gun_description.charge_time",
+                  "color": "#faef8c",
+                  "italic": false,
+                  "with": [
+                    1.5
+                  ]
+                 }
+                ],
+                [
+                  " ",
+                  {
+                  "translate": "ui.jolted.gun_description.range",
+                  "color": "#faef8c",
+                  "italic": false,
+                  "with": [
+                    40
+                  ]
+                 }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.jolted.golden_revolver",
+                "italic": false,
+                "color": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

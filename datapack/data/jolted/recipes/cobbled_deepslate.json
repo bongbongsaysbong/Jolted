@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+      {
+          "item": "minecraft:cobblestone"
+      },
+      {
+          "item": "minecraft:cobblestone"
+      },
+      {
+          "item": "minecraft:basalt"
+      },
+      {
+          "item": "minecraft:basalt"
+      }
+  ],
+  "result": {
+      "item": "minecraft:cobbled_deepslate",
+      "count": 4
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:5b,Count:64b}]}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:5b,id:\"minecraft:structure_block\",tag:{jolted:{id:\"rubrum_ingot\"}}}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "nbt": "{Items:[{Slot:5b}]}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

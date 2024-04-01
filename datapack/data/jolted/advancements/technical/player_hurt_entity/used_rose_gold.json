@@ -1,0 +1,68 @@
+{
+  "parent": "jolted:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jolted.rose_gold_delay": {
+                  "min": 1
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:golden_sword",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:golden_axe",
+                    "minecraft:golden_shovel",
+                    "minecraft:golden_hoe"
+                  ],
+                  "nbt": "{jolted:{tool:\"rose_gold\"}}"
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jolted:item/rose_gold_tools/damage_entity/main"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

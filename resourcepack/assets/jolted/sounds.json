@@ -1,0 +1,295 @@
+{
+  "item.rose_gold_tools.hit": {
+    "subtitle": "subtitles.jolted.item.rose_gold_tools.hit",
+    "sounds": [
+      "jolted:item/rose_gold_tools/hit0",
+      "jolted:item/rose_gold_tools/hit1",
+      "jolted:item/rose_gold_tools/hit2",
+      "jolted:item/rose_gold_tools/hit3",
+      "jolted:item/rose_gold_tools/hit4"
+    ]
+  },
+  "item.rose_gold_tools.low_durability": {
+    "subtitle": "subtitles.jolted.item.rose_gold_tools.low_durability",
+    "sounds": [
+      "jolted:item/rose_gold_tools/low_durability"
+    ]
+  },
+  "item.guns.load": {
+    "subtitle": "subtitles.jolted.item.guns.load",
+    "sounds": [
+      {"name": "jolted:item/guns/load", "pitch": 1.05},
+      {"name": "jolted:item/guns/load", "pitch": 1.0},
+      {"name": "jolted:item/guns/load", "pitch": 0.95}
+    ]
+  },
+  "item.guns.tick": {
+    "subtitle": "subtitles.jolted.item.guns.tick",
+    "sounds": [
+      {"name": "jolted:item/guns/tick", "pitch": 1.1},
+      {"name": "jolted:item/guns/tick", "pitch": 1.05},
+      {"name": "jolted:item/guns/tick", "pitch": 1.0},
+      {"name": "jolted:item/guns/tick", "pitch": 0.95},
+      {"name": "jolted:item/guns/tick", "pitch": 0.9}
+    ]
+  },
+  "item.guns.shoot": {
+    "subtitle": "subtitles.jolted.item.guns.shoot",
+    "sounds": [
+      "jolted:item/guns/shoot0",
+      "jolted:item/guns/shoot1",
+      "jolted:item/guns/shoot2",
+      "jolted:item/guns/shoot3"
+    ]
+  },
+  "item.guns.shoot_rifle": {
+    "subtitle": "subtitles.jolted.item.guns.shoot",
+    "sounds": [
+      "jolted:item/guns/shoot_rifle0",
+      "jolted:item/guns/shoot_rifle1",
+      "jolted:item/guns/shoot_rifle2",
+      "jolted:item/guns/shoot_rifle3"
+    ]
+  },
+  "entity.copper_golem.ambient": {
+    "subtitle": "subtitles.jolted.entity.copper_golem.ambient",
+    "sounds": [
+      "jolted:entity/copper_golem/idle0",
+      "jolted:entity/copper_golem/idle1",
+      "jolted:entity/copper_golem/idle2"
+    ]
+  },
+  "entity.copper_golem.hurt": {
+    "subtitle": "subtitles.jolted.entity.copper_golem.hurt",
+    "sounds": [
+      "jolted:entity/copper_golem/hurt0",
+      "jolted:entity/copper_golem/hurt1",
+      "jolted:entity/copper_golem/hurt2"
+    ]
+  },
+  "entity.copper_golem.death": {
+    "subtitle": "subtitles.jolted.entity.copper_golem.death",
+    "sounds": [
+      "jolted:entity/copper_golem/death"
+    ]
+  },
+  "entity.copper_golem.taunt": {
+    "subtitle": "subtitles.jolted.entity.copper_golem.taunt",
+    "sounds": [
+      "jolted:entity/copper_golem/taunt0",
+      "jolted:entity/copper_golem/taunt1"
+    ]
+  },
+  "entity.copper_golem.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "block/copper/step1",
+      "block/copper/step2",
+      "block/copper/step3",
+      "block/copper/step4",
+      "block/copper/step5",
+      "block/copper/step6"
+    ]
+  },
+  "block.wrecker.close": {
+    "subtitle": "subtitles.jolted.block.wrecker.close",
+    "sounds": [
+      {"name": "jolted:block/wrecker/close", "pitch": 1.0},
+      {"name": "jolted:block/wrecker/close", "pitch": 0.95},
+      {"name": "jolted:block/wrecker/close", "pitch": 0.9}
+    ]
+  },
+  "block.wrecker.open": {
+    "subtitle": "subtitles.jolted.block.wrecker.open",
+    "sounds": [
+      {"name": "jolted:block/wrecker/open", "pitch": 1.0},
+      {"name": "jolted:block/wrecker/open", "pitch": 0.95},
+      {"name": "jolted:block/wrecker/open", "pitch": 0.9}
+    ]
+  },
+  "block.wrecker.fail": {
+    "subtitle": "subtitles.jolted.block.wrecker.fail",
+    "sounds": [
+      {"name": "jolted:block/wrecker/fail", "pitch": 1.0},
+      {"name": "jolted:block/wrecker/fail", "pitch": 0.95},
+      {"name": "jolted:block/wrecker/fail", "pitch": 0.9}
+    ]
+  },
+  "block.alloy_forge.ambient": {
+    "subtitle": "subtitles.jolted.block.alloy_forge.ambient",
+    "sounds": [
+      "block/blastfurnace/blastfurnace1",
+      "block/blastfurnace/blastfurnace2",
+      "block/blastfurnace/blastfurnace3",
+      "block/blastfurnace/blastfurnace4",
+      "block/blastfurnace/blastfurnace5"
+    ]
+  },
+  "block.alloy_forge.smelt": {
+    "subtitle": "subtitles.jolted.block.alloy_forge.smelt",
+    "sounds": [
+      "jolted:block/alloy_forge/smelt0",
+      "jolted:block/alloy_forge/smelt1",
+      "jolted:block/alloy_forge/smelt2"
+    ]
+  },
+  "block.liquid_tank.water.fill": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.fill",
+    "sounds": [
+      "item/bucket/fill1",
+      "item/bucket/fill2",
+      "item/bucket/fill3"
+    ]
+  },
+  "block.liquid_tank.water.empty": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.empty",
+    "sounds": [
+      "item/bucket/empty1",
+      "item/bucket/empty2",
+      "item/bucket/empty3"
+    ]
+  },
+  "block.liquid_tank.lava.fill": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.fill",
+    "sounds": [
+      "item/bucket/fill_lava1",
+      "item/bucket/fill_lava2",
+      "item/bucket/fill_lava3"
+    ]
+  },
+  "block.liquid_tank.lava.empty": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.empty",
+    "sounds": [
+      "item/bucket/empty_lava1",
+      "item/bucket/empty_lava2",
+      "item/bucket/empty_lava3"
+    ]
+  },
+  "block.liquid_tank.honey.fill": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.fill",
+    "sounds": [
+      "jolted:block/liquid_tank/honey0",
+      "jolted:block/liquid_tank/honey1",
+      "jolted:block/liquid_tank/honey2"
+    ]
+  },
+  "block.liquid_tank.honey.empty": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.empty",
+    "sounds": [
+      "jolted:block/liquid_tank/honey0",
+      "jolted:block/liquid_tank/honey1",
+      "jolted:block/liquid_tank/honey2"
+    ]
+  },
+  "block.liquid_tank.milk.fill": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.fill",
+    "sounds": [
+      "jolted:block/liquid_tank/milk0",
+      "jolted:block/liquid_tank/milk1",
+      "jolted:block/liquid_tank/milk2"
+    ]
+  },
+  "block.liquid_tank.milk.empty": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.empty",
+    "sounds": [
+      "jolted:block/liquid_tank/milk0",
+      "jolted:block/liquid_tank/milk1",
+      "jolted:block/liquid_tank/milk2"
+    ]
+  },
+  "block.liquid_tank.blood.fill": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.fill",
+    "sounds": [
+      "jolted:block/liquid_tank/blood0",
+      "jolted:block/liquid_tank/blood1",
+      "jolted:block/liquid_tank/blood2"
+    ]
+  },
+  "block.liquid_tank.blood.empty": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.empty",
+    "sounds": [
+      "jolted:block/liquid_tank/blood0",
+      "jolted:block/liquid_tank/blood1",
+      "jolted:block/liquid_tank/blood2"
+    ]
+  },
+  "block.liquid_tank.corpse_sap.fill": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.empty",
+    "sounds": [
+      {"name": "jolted:block/liquid_tank/corpse_sap", "pitch": 1.05},
+      {"name": "jolted:block/liquid_tank/corpse_sap", "pitch": 1.0},
+      {"name": "jolted:block/liquid_tank/corpse_sap", "pitch": 0.95}
+    ]
+  },
+  "block.liquid_tank.corpse_sap.empty": {
+    "subtitle": "subtitles.jolted.block.liquid_tank.empty",
+    "sounds": [
+      {"name": "jolted:block/liquid_tank/corpse_sap", "pitch": 1.05},
+      {"name": "jolted:block/liquid_tank/corpse_sap", "pitch": 1.0},
+      {"name": "jolted:block/liquid_tank/corpse_sap", "pitch": 0.95}
+    ]
+  },
+  "block.coin_press.activate": {
+    "subtitle": "subtitles.jolted.block.coin_press.activate",
+    "sounds": [
+      {"name": "jolted:block/coin_press/press0", "pitch": 1.05, "volume": 0.5},
+      {"name": "jolted:block/coin_press/press0", "pitch": 1.0, "volume": 0.5},
+      {"name": "jolted:block/coin_press/press0", "pitch": 0.95, "volume": 0.5},
+      {"name": "jolted:block/coin_press/press1", "pitch": 1.05, "volume": 0.5},
+      {"name": "jolted:block/coin_press/press1", "pitch": 1.0, "volume": 0.5},
+      {"name": "jolted:block/coin_press/press1", "pitch": 0.95, "volume": 0.5}
+    ]
+  },
+  "block.speaker.activate": {
+    "subtitle": "subtitles.jolted.block.speaker.activate",
+    "sounds": [
+      {"name": "jolted:block/speaker", "pitch": 1.05, "volume": 0.5},
+      {"name": "jolted:block/speaker", "pitch": 1.0, "volume": 0.5},
+      {"name": "jolted:block/speaker", "pitch": 0.95, "volume": 0.5}
+    ]
+  },
+  "block.assembly_table.craft": {
+    "subtitle": "subtitles.jolted.block.assembly_table.craft",
+    "sounds": [
+      {"name": "jolted:block/assembly_table/craft", "pitch": 1.05, "volume": 0.5},
+      {"name": "jolted:block/assembly_table/craft", "pitch": 1.0, "volume": 0.5},
+      {"name": "jolted:block/assembly_table/craft", "pitch": 0.95, "volume": 0.5}
+    ]
+  },
+  "block.assembly_table.click": {
+    "sounds": [
+      "jolted:block/assembly_table/click0",
+      "jolted:block/assembly_table/click1",
+      "jolted:block/assembly_table/click2"
+    ]
+  },
+  "block.grinding_mill.insert": {
+    "subtitle": "subtitles.jolted.block.grinding_mill.insert",
+    "sounds": [
+      "jolted:block/grinding_mill/insert1",
+      "jolted:block/grinding_mill/insert2",
+      "jolted:block/grinding_mill/insert3"
+    ]
+  },
+  "block.grinding_mill.grinding": {
+    "subtitle": "subtitles.jolted.block.grinding_mill.grinding",
+    "sounds": [
+      {"name": "jolted:block/grinding_mill/grinding1", "weight": 333},
+      {"name": "jolted:block/grinding_mill/grinding2", "weight": 333},
+      {"name": "jolted:block/grinding_mill/grinding3", "weight": 333},
+      {"name": "jolted:block/grinding_mill/grinding_rare", "weight": 1}
+    ]
+  },
+  "block.grinding_mill.eject": {
+    "subtitle": "subtitles.jolted.block.grinding_mill.eject",
+    "sounds": [
+      "jolted:block/grinding_mill/eject"
+    ]
+  },
+  "block.grinding_mill.eject_container": {
+    "subtitle": "subtitles.jolted.block.grinding_mill.eject_container",
+    "sounds": [
+      "jolted:block/grinding_mill/eject_container"
+    ]
+  }
+}

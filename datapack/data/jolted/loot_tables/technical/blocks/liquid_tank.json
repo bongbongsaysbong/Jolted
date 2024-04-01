@@ -1,0 +1,308 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "jolted:items/liquid_tank"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "ui.jolted.liquid_tank.count",
+              "with": [
+                {
+                  "text": "ꀀ",
+                  "font": "jolted:liquid_tank/small"
+                },
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "jolted.dummy2"
+                  }
+                }
+              ],
+              "color": "white",
+              "italic": false
+            }
+          ],
+          "replace": true,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "jolted.dummy"
+              },
+              "range": 0
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "ui.jolted.liquid_tank.count",
+              "with": [
+                {
+                  "text": "ꀁ",
+                  "font": "jolted:liquid_tank/small"
+                },
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "jolted.dummy2"
+                  }
+                }
+              ],
+              "color": "white",
+              "italic": false
+            }
+          ],
+          "replace": true,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "jolted.dummy"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "ui.jolted.liquid_tank.count",
+              "with": [
+                {
+                  "text": "ꀂ",
+                  "font": "jolted:liquid_tank/small"
+                },
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "jolted.dummy2"
+                  }
+                }
+              ],
+              "color": "white",
+              "italic": false
+            }
+          ],
+          "replace": true,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "jolted.dummy"
+              },
+              "range": 2
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "ui.jolted.liquid_tank.count",
+              "with": [
+                {
+                  "text": "ꀃ",
+                  "font": "jolted:liquid_tank/small"
+                },
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "jolted.dummy2"
+                  }
+                }
+              ],
+              "color": "white",
+              "italic": false
+            }
+          ],
+          "replace": true,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "jolted.dummy"
+              },
+              "range": 3
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "ui.jolted.liquid_tank.count",
+              "with": [
+                {
+                  "text": "ꀄ",
+                  "font": "jolted:liquid_tank/small"
+                },
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "jolted.dummy2"
+                  }
+                }
+              ],
+              "color": "white",
+              "italic": false
+            }
+          ],
+          "replace": true,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "jolted.dummy"
+              },
+              "range": 4
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "ui.jolted.liquid_tank.count",
+              "with": [
+                {
+                  "text": "ꀅ",
+                  "font": "jolted:liquid_tank/small"
+                },
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "jolted.dummy2"
+                  }
+                }
+              ],
+              "color": "white",
+              "italic": false
+            }
+          ],
+          "replace": true,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "jolted.dummy"
+              },
+              "range": 5
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "ui.jolted.liquid_tank.count",
+              "with": [
+                {
+                  "text": "ꀆ",
+                  "font": "jolted:liquid_tank/small"
+                },
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "jolted.dummy2"
+                  }
+                }
+              ],
+              "color": "white",
+              "italic": false
+            }
+          ],
+          "replace": true,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "jolted.dummy"
+              },
+              "range": 6
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "jolted.tooltip",
+              "with": [
+                {
+                  "translate": "pack.jolted",
+                  "color": "#ffae17",
+                  "font": "minecraft:default",
+                  "italic": true
+                }
+              ],
+              "color": "white",
+              "font": "jolted:tooltip",
+              "italic": false
+            }
+          ],
+          "replace": false
+        },
+        {
+          "function": "minecraft:copy_nbt",
+          "source": {
+            "type": "minecraft:storage",
+            "source": "jolted:storage"
+          },
+          "ops": [
+            {
+              "source": "root.temp.liquid_tank",
+              "target": "BlockEntityTag.Items[0].tag.nucleus.block.jolted.liquid_tank",
+              "op": "replace"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:copy_nbt",
+          "source": {
+            "type": "minecraft:storage",
+            "source": "jolted:storage"
+          },
+          "ops": [
+            {
+              "source": "root.temp.liquid_tank.CustomModelData",
+              "target": "CustomModelData",
+              "op": "replace"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "jolted:item/gun/mainhand"
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "nbt": "{jolted:{gun:{is_gun:1b}}}"
+        }
+      }
+    }
+  }
+]

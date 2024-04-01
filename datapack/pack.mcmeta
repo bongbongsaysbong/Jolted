@@ -1,0 +1,39 @@
+{
+  "pack": {
+    "pack_format": 26,
+    "description": [
+      {
+        "text": "Jolted",
+        "color": "#ffae17"
+      },
+      {
+        "text": " | ",
+        "color": "#d4c6ae"
+      },
+      {
+        "text": "v0.1.0",
+        "color": "#faef8c"
+      }
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipes/netherite_ingot"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancements/recipes/misc/netherite_ingot"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/lodestone"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancements/recipes/decorations/lodestone"
+      }
+    ]
+  }
+}

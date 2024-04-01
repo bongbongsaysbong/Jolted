@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rail": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rail"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rail_recipe": {
+      "conditions": {
+        "recipe": "minecraft:detector_rail"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_rail_from_copper_ingot_recipe": {
+      "conditions": {
+        "recipe": "jolted:detector_rail_from_copper_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rail",
+      "has_rail_recipe",
+      "has_rail_from_copper_ingot_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:detector_rail",
+      "jolted:detector_rail_from_copper_ingot"
+    ]
+  }
+}

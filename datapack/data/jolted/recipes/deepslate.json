@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+      {
+          "item": "minecraft:stone"
+      },
+      {
+          "item": "minecraft:stone"
+      },
+      {
+          "item": "minecraft:smooth_basalt"
+      },
+      {
+          "item": "minecraft:smooth_basalt"
+      }
+  ],
+  "result": {
+      "item": "minecraft:deepslate",
+      "count": 4
+  }
+}

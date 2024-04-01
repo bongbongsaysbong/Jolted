@@ -1,0 +1,21 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,id:\"minecraft:barrier\",tag:{jolted:{alloy_forge_timer:1b}}}]}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "nbt": "{Items:[{Slot:4b}]}"
+      }
+    }
+  }
+]

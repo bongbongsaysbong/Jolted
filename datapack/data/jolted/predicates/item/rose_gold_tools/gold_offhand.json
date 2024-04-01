@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "jolted:item/rose_gold_tools/gold_mainhand"
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:golden_sword",
+            "minecraft:golden_pickaxe",
+            "minecraft:golden_axe",
+            "minecraft:golden_shovel",
+            "minecraft:golden_hoe"
+          ]
+        }
+      }
+    }
+  }
+]

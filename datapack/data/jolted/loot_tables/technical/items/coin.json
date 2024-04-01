@@ -1,0 +1,436 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362008,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.copper_coin\"}'}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362006,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.iron_coin\"}'}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362007,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.gold_coin\"}'}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362009,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.netherite_scrap_coin\"}'},nucleus:{item_immunity:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 4
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362012,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.netherite_coin\"}'},nucleus:{item_immunity:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362011,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.cunife_coin\"}'}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 6
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362010,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.electrum_coin\"}'}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362016,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.rose_gold_coin\"}'}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 8
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362013,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.pigsteel_coin\"}'},nucleus:{item_immunity:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 9
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362014,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.rubrum_coin\"}'},nucleus:{item_immunity:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 10
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362017,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.anirrum_coin\"}'},nucleus:{item_immunity:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 11
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362018,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.charonite_coin\"}'},nucleus:{item_immunity:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 12
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362019,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.elderskin_inlay_coin\"}'},nucleus:{item_immunity:1b,soulbound:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 13
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362020,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.teeyel_coin\"}'},nucleus:{item_immunity:1b},DisobeysGravity:1}",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 14
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "item.nucleus.soulbound",
+              "color": "#ABCECC",
+              "italic": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#coin_type"
+                },
+                "score": "jolted.dummy"
+              },
+              "range": 13
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "selector": "@p[tag=jolted.interacting_player]",
+              "color": "#f7dc60",
+              "italic": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#coin_has_name"
+                  },
+                  "score": "jolted.dummy"
+                },
+                "range": 1
+              }
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "item.jolted.coin.name_and_player",
+              "with": [
+                {
+                  "selector": "@p[tag=jolted.interacting_player]"
+                },
+                {
+                  "nbt": "root.temp.coin_name",
+                  "storage": "jolted:storage",
+                  "color": "#faef8c",
+                  "interpret": true,
+                  "italic": true
+                }
+              ],
+              "color": "#f7dc60",
+              "italic": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#coin_has_name"
+                },
+                "score": "jolted.dummy"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "jolted.tooltip",
+              "font": "jolted:tooltip",
+              "color": "white",
+              "italic": false,
+              "with": [
+                {"translate":"pack.jolted","font":"minecraft:default","color":"#ffae17","italic":true}
+              ]
+            }
+          ],
+          "replace": false
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": 4
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": 4,
+          "add": true,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": {
+                    "min": 9,
+                    "max": 10
+                  }
+                },
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": {
+                    "min": 4,
+                    "max": 5
+                  }
+                },
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#coin_type"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": {
+                    "min": 12,
+                    "max": 14
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

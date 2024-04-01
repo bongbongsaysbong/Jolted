@@ -1,0 +1,215 @@
+{
+  "parent": "minecraft:block/dropper",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8362000
+      },
+      "model": "jolted:block/wrecker/off"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362001
+      },
+      "model": "jolted:block/wrecker/on"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362002
+      },
+      "model": "jolted:block/alloy_forge/off"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362003
+      },
+      "model": "jolted:block/alloy_forge/on"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362004
+      },
+      "model": "jolted:block/liquid_tank/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362005
+      },
+      "model": "jolted:block/liquid_tank/water/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362006
+      },
+      "model": "jolted:block/liquid_tank/water/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362007
+      },
+      "model": "jolted:block/liquid_tank/water/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362008
+      },
+      "model": "jolted:block/liquid_tank/water/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362009
+      },
+      "model": "jolted:block/liquid_tank/lava/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362010
+      },
+      "model": "jolted:block/liquid_tank/lava/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362011
+      },
+      "model": "jolted:block/liquid_tank/lava/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362012
+      },
+      "model": "jolted:block/liquid_tank/lava/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362013
+      },
+      "model": "jolted:block/liquid_tank/milk/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362014
+      },
+      "model": "jolted:block/liquid_tank/milk/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362015
+      },
+      "model": "jolted:block/liquid_tank/milk/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362016
+      },
+      "model": "jolted:block/liquid_tank/milk/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362017
+      },
+      "model": "jolted:block/liquid_tank/honey/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362018
+      },
+      "model": "jolted:block/liquid_tank/honey/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362019
+      },
+      "model": "jolted:block/liquid_tank/honey/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362020
+      },
+      "model": "jolted:block/liquid_tank/honey/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362021
+      },
+      "model": "jolted:block/liquid_tank/corpse_sap/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362022
+      },
+      "model": "jolted:block/liquid_tank/corpse_sap/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362023
+      },
+      "model": "jolted:block/liquid_tank/corpse_sap/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362024
+      },
+      "model": "jolted:block/liquid_tank/corpse_sap/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362025
+      },
+      "model": "jolted:block/liquid_tank/blood/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362026
+      },
+      "model": "jolted:block/liquid_tank/blood/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362027
+      },
+      "model": "jolted:block/liquid_tank/blood/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362028
+      },
+      "model": "jolted:block/liquid_tank/blood/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362029
+      },
+      "model": "jolted:block/coin_press/base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362030
+      },
+      "model": "jolted:block/coin_press/extend_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362031
+      },
+      "model": "jolted:block/coin_press/extend_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362032
+      },
+      "model": "jolted:block/coin_press/extend_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362033
+      },
+      "model": "jolted:block/coin_press/extend_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8362034
+      },
+      "model": "jolted:block/speaker"
+    }
+  ]
+}

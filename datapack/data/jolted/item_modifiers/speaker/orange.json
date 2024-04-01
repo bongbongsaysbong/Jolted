@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "nbt": "item.tag.jolted.text",
+    "entity": "@s",
+    "interpret": true,
+    "color": "#FC671F"
+  }
+}

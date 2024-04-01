@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362001,jolted:{id:\"rose_gold_ingot\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "jolted.tooltip",
+                  "font": "jolted:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.jolted","font":"minecraft:default","color":"#ffae17","italic":true}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.jolted.rose_gold_ingot",
+                "italic": false,
+                "color": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

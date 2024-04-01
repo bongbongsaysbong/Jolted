@@ -1,0 +1,13 @@
+data remove storage jolted:storage root.temp
+data modify storage jolted:storage root.temp.block_data set from block ~ ~ ~
+
+setblock ~ ~ ~ air
+setblock ~ ~ ~ dropper[facing=down]{CustomName:'{"font":"jolted:technical","translate":"block.jolted.coin_press.name"}',Lock:"§jolted.coin_press\\uF001",TransferCooldown:9999}
+
+execute if entity @s[y_rotation=135..-135] run summon item_display ~ ~1 ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:dropper",Count:1b,tag:{CustomModelData:8362029}},transformation:{scale:[1.001,1.001,1.001],left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,0f],angle:0f},translation:[0,-1,0]},Tags:["nucleus.entity","jolted.block","jolted.tick","jolted.coin_press","smithed.entity","smithed.block","nucleus.prevents_hoppers","nucleus.offset_block_entity","nucleus.prevent_darkening"]}
+execute if entity @s[y_rotation=-135..-45] run summon item_display ~ ~1 ~ {Rotation:[90.0f,0.0f],item:{id:"minecraft:dropper",Count:1b,tag:{CustomModelData:8362029}},transformation:{scale:[1.001,1.001,1.001],left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,0f],angle:0f},translation:[0,-1,0]},Tags:["nucleus.entity","jolted.block","jolted.tick","jolted.coin_press","smithed.entity","smithed.block","nucleus.prevents_hoppers","nucleus.offset_block_entity","nucleus.prevent_darkening"]}
+execute if entity @s[y_rotation=-45..45] run summon item_display ~ ~1 ~ {Rotation:[180.0f,0.0f],item:{id:"minecraft:dropper",Count:1b,tag:{CustomModelData:8362029}},transformation:{scale:[1.001,1.001,1.001],left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,0f],angle:0f},translation:[0,-1,0]},Tags:["nucleus.entity","jolted.block","jolted.tick","jolted.coin_press","smithed.entity","smithed.block","nucleus.prevents_hoppers","nucleus.offset_block_entity","nucleus.prevent_darkening"]}
+execute if entity @s[y_rotation=45..135] run summon item_display ~ ~1 ~ {Rotation:[270.0f,0.0f],item:{id:"minecraft:dropper",Count:1b,tag:{CustomModelData:8362029}},transformation:{scale:[1.001,1.001,1.001],left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,0f],angle:0f},translation:[0,-1,0]},Tags:["nucleus.entity","jolted.block","jolted.tick","jolted.coin_press","smithed.entity","smithed.block","nucleus.prevents_hoppers","nucleus.offset_block_entity","nucleus.prevent_darkening"]}
+execute positioned ~ ~1 ~ as @e[type=minecraft:item_display,tag=jolted.coin_press,distance=..0.05,sort=nearest,limit=1] unless data storage jolted:storage root.temp.block_data{CustomName:'{"translate":"block.jolted.coin_press","italic":false}'} run function jolted:block/coin_press/place/initiate
+
+function nucleus:block/hopper_updating/fill/main

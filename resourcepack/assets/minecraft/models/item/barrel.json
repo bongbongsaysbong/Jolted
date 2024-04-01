@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/barrel",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8362000
+      },
+      "model": "jolted:block/assembly_table"
+    }
+  ]
+}

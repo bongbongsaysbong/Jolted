@@ -1,0 +1,56 @@
+{
+  "parent": "jolted:technical/root",
+  "criteria": {
+    "shear_pumpkin": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:carved_pumpkin"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "placed_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lightning_rod"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shear_pumpkin",
+      "placed_block"
+    ]
+  ],
+  "rewards": {
+    "function": "jolted:entity/copper_golem/placement/main"
+  }
+}

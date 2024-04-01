@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "jolted:block/grinding_mill/gear",
+		"3": "jolted:block/grinding_mill/base",
+		"particle": "jolted:block/grinding_mill/particles"
+	},
+	"elements": [
+		{
+			"name": "Top",
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 12], "texture": "#3"},
+				"east": {"uv": [8, 8, 16, 12], "texture": "#3"},
+				"south": {"uv": [8, 8, 16, 12], "texture": "#3"},
+				"west": {"uv": [8, 8, 16, 12], "texture": "#3"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#3"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Inner Top",
+			"from": [13, 16, 13],
+			"to": [3, 13, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
+			"faces": {
+				"north": {"uv": [3, 9.5, 8, 8], "texture": "#3"},
+				"east": {"uv": [3, 9.5, 8, 8], "texture": "#3"},
+				"south": {"uv": [3, 9.5, 8, 8], "texture": "#3"},
+				"west": {"uv": [3, 9.5, 8, 8], "texture": "#3"},
+				"up": {"uv": [8, 9.5, 3, 14.5], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Gear",
+			"from": [-1, 6, -1],
+			"to": [17, 6, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 6, 0]},
+			"faces": {
+				"up": {"uv": [3.5, 3.5, 12.5, 12.5], "texture": "#1"},
+				"down": {"uv": [3.5, 3.5, 12.5, 12.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bottom",
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [8, 12, 12, 16], "texture": "#3"},
+				"east": {"uv": [8, 12, 12, 16], "texture": "#3"},
+				"south": {"uv": [8, 12, 12, 16], "texture": "#3"},
+				"west": {"uv": [8, 12, 12, 16], "texture": "#3"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#3"},
+				"down": {"uv": [12, 12, 16, 16], "texture": "#3"}
+			}
+		}
+	]
+}

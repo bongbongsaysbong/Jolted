@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jolted:block/speaker/speaker_bottom",
+    "side": "jolted:block/speaker/speaker_side"
+  }
+}

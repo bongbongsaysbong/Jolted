@@ -1,0 +1,52 @@
+{
+  "parent": "jolted:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jolted.gun_charge": {
+                  "min": 1
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jolted.gun_charge.segment": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "nbt": "{jolted:{gun:{reload_state:1}}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "jolted:item/gun/charge/reset_speed"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362008,jolted:{id:\"pigsteel_rifle\",prevents_crossbow_firing:1b,gun:{is_gun:1b,reload_state:0,models:{default:8362008,reload:8362009},bullets:0,maximum_bullets:2,charge_time:8,range:30,gun_type:\"pistol\",damage:18}},HideFlags:38,ChargedProjectiles:[{id:\"minecraft:air\",Count:1b},{},{}],Charged:1b,nucleus:{durability:[1000,1000],repaired:1b,prevent_striders:1b},sanguine:{allow_pus_repair:1b}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "gun_damage",
+                  "amount": 8,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "gun_speed",
+                  "amount": -2.8,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    1000,
+                    1000
+                  ]
+                },
+                {
+                  "translate": "jolted.tooltip",
+                  "font": "jolted:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.jolted","font":"minecraft:default","color":"#ffae17","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "ui.jolted.gun_description.charge",
+                  "color": "#faef8c",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.sneak","color":"#f7dc60"}
+                  ]
+                },
+                {
+                  "translate": "ui.jolted.gun_description.use",
+                  "color": "#faef8c",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.use","color":"#f7dc60"}
+                  ]
+                },
+                "",
+                {
+                  "translate": "ui.jolted.gun_description",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                  "translate": "ui.jolted.gun_description.bullets",
+                  "color": "#faef8c",
+                  "italic": false,
+                  "with": [
+                    0,
+                    2
+                  ]
+                 }
+                ],
+                [
+                  " ",
+                  {
+                  "translate": "ui.jolted.gun_description.damage",
+                  "color": "#faef8c",
+                  "italic": false,
+                  "with": [
+                    18
+                  ]
+                 }
+                ],
+                [
+                  " ",
+                  {
+                  "translate": "ui.jolted.gun_description.charge_time",
+                  "color": "#faef8c",
+                  "italic": false,
+                  "with": [
+                    4
+                  ]
+                 }
+                ],
+                [
+                  " ",
+                  {
+                  "translate": "ui.jolted.gun_description.range",
+                  "color": "#faef8c",
+                  "italic": false,
+                  "with": [
+                    30
+                  ]
+                 }
+                ],
+                "",
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                    "translate": "attribute.modifier.equals.0",
+                    "italic": false,
+                    "color": "dark_green",
+                    "with": [
+                      9,
+                      {
+                        "translate": "attribute.name.generic.attack_damage"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  " ",
+                  {
+                    "translate": "attribute.modifier.equals.0",
+                    "italic": false,
+                    "color": "dark_green",
+                    "with": [
+                      1.2,
+                      {
+                        "translate": "attribute.name.generic.attack_speed"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.jolted.pigsteel_rifle",
+                "italic": false,
+                "color": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

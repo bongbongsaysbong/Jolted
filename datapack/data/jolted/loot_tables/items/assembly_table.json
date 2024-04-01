@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:0,BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{nucleus:{block:{placed_block:1b,id:\"jolted:assembly_table\"}}}}]},CustomModelData:8362000,jolted:{id:\"assembly_table\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.jolted.assembly_table",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "jolted.tooltip",
+                  "font": "jolted:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.jolted","font":"minecraft:default","color":"#ffae17","italic":true}
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

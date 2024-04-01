@@ -1,0 +1,21 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "\ua000": -12,
+        "\ua002": -169
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "jolted:gui/assembly_table.png",
+      "ascent": 13,
+      "height": 176,
+      "chars": [
+        "\ua001"
+      ]
+    }
+  ]
+}

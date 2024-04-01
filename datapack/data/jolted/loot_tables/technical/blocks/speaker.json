@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "jolted:items/speaker",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "nbt": "root.temp.text",
+                "storage": "jolted:storage",
+                "interpret": true
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#has_name"
+                    },
+                    "score": "jolted.dummy"
+                  },
+                  "range": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

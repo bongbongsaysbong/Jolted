@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8362001,jolted:{id:\"cunife_compass\",modified_compass:0b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "jolted.tooltip",
+                  "font": "jolted:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.jolted","font":"minecraft:default","color":"#ffae17","italic":true}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.jolted.cunife_compass",
+                "italic": false,
+                "color": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

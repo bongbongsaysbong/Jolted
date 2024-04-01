@@ -1,0 +1,6 @@
+{
+	"parent": "jolted:block/liquid_tank/water/4",
+	"textures": {
+		"2": "jolted:block/liquid_tank/fluids/blood"
+	}
+}

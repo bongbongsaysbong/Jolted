@@ -1,0 +1,6 @@
+{
+	"parent": "jolted:entity/copper_golem/walk",
+	"textures": {
+		"0": "jolted:entity/copper_golem/weathered/walk"
+	}
+}

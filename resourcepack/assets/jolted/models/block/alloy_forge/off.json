@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+	  "particle": "jolted:block/alloy_forge/alloy_forge_side",
+	  "north": "jolted:block/alloy_forge/alloy_forge_front",
+	  "south": "jolted:block/alloy_forge/alloy_forge_side",
+	  "east": "jolted:block/alloy_forge/alloy_forge_side",
+	  "west": "jolted:block/alloy_forge/alloy_forge_side",
+	  "up": "jolted:block/alloy_forge/alloy_forge_top",
+	  "down": "jolted:block/alloy_forge/alloy_forge_top"
+	}
+}

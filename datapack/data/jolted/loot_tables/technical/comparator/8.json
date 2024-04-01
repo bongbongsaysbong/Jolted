@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "jolted:technical/comparator/base",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "jolted:technical/comparator/base",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 32
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "jolted:technical/comparator/8"
+}

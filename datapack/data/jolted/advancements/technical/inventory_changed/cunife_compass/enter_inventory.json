@@ -1,0 +1,50 @@
+{
+  "parent": "jolted:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Inventory:[{id:\"minecraft:compass\",tag:{jolted:{id:\"cunife_compass\",modified_compass:0b}}}]}"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"jolted.player.has_cunife_compass\"]}"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ],
+            "nbt": "{jolted:{id:\"cunife_compass\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "jolted:item/cunife_compass/inventory/enter_inventory"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

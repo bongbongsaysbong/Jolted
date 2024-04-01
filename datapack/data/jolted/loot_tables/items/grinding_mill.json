@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{nucleus:{block:{placed_block:1b,id:\"jolted:grinding_mill\"}}}}]},CustomModelData:8362000,jolted:{id:\"grinding_mill\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.jolted.grinding_mill",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "jolted.tooltip",
+                  "font": "jolted:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.jolted","font":"minecraft:default","color":"#ffae17","italic":true}
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:hopper"
+        }
+      ]
+    }
+  ]
+}

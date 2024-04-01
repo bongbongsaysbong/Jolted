@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:golden_sword",
+          "minecraft:golden_pickaxe",
+          "minecraft:golden_axe",
+          "minecraft:golden_shovel",
+          "minecraft:golden_hoe"
+        ]
+      }
+    }
+  }
+}

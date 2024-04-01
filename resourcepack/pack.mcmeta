@@ -1,0 +1,10 @@
+{
+   "pack":{
+      "pack_format": 22,
+      "description": [
+		{"text":"Jolted","color":"#ffae17"},
+		{"text":" | ","color":"#d4c6ae"},
+		{"text":"v0.1.0","color":"#faef8c"}
+	  ]
+   }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_shovel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8362000
+      },
+      "model": "jolted:item/rose_gold_shovel"
+    }
+  ]
+}

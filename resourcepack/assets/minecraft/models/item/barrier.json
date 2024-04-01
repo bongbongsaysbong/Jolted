@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/barrier"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 8362001},"model": "jolted:item/alloy_forge/16"},
+    {"predicate": {"custom_model_data": 8362002},"model": "jolted:item/alloy_forge/15"},
+    {"predicate": {"custom_model_data": 8362003},"model": "jolted:item/alloy_forge/14"},
+    {"predicate": {"custom_model_data": 8362004},"model": "jolted:item/alloy_forge/13"},
+    {"predicate": {"custom_model_data": 8362005},"model": "jolted:item/alloy_forge/12"},
+    {"predicate": {"custom_model_data": 8362006},"model": "jolted:item/alloy_forge/11"},
+    {"predicate": {"custom_model_data": 8362007},"model": "jolted:item/alloy_forge/10"},
+    {"predicate": {"custom_model_data": 8362008},"model": "jolted:item/alloy_forge/9"},
+    {"predicate": {"custom_model_data": 8362009},"model": "jolted:item/alloy_forge/8"},
+    {"predicate": {"custom_model_data": 8362010},"model": "jolted:item/alloy_forge/7"},
+    {"predicate": {"custom_model_data": 8362011},"model": "jolted:item/alloy_forge/6"},
+    {"predicate": {"custom_model_data": 8362012},"model": "jolted:item/alloy_forge/5"},
+    {"predicate": {"custom_model_data": 8362013},"model": "jolted:item/alloy_forge/4"},
+    {"predicate": {"custom_model_data": 8362014},"model": "jolted:item/alloy_forge/3"},
+    {"predicate": {"custom_model_data": 8362015},"model": "jolted:item/alloy_forge/2"},
+    {"predicate": {"custom_model_data": 8362016},"model": "jolted:item/alloy_forge/1"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+	"values": [
+		"#nucleus:preset/can_take_damage/include_players",
+		"minecraft:armor_stand",
+		"minecraft:minecart",
+		"minecraft:chest_minecart",
+		"minecraft:hopper_minecart",
+		"minecraft:furnace_minecart",
+		"minecraft:boat",
+		"minecraft:chest_boat",
+		"minecraft:end_crystal"
+	]
+}

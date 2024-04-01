@@ -1,0 +1,91 @@
+{
+  "parent": "jolted:technical/root",
+  "criteria": {
+    "scrape": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_axe",
+            "minecraft:stone_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:wooden_axe",
+            "minecraft:netherite_axe"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"jolted.copper_golem\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "jolted.dummy2": {
+                    "min": 1
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"jolted.copper_golem.waxed\"]}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "wax": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"jolted.copper_golem\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:wandering_trader",
+                "nbt": "{Tags:[\"jolted.copper_golem.waxed\"]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scrape",
+      "wax"
+    ]
+  ],
+  "rewards": {
+    "function": "jolted:entity/copper_golem/interact/raycast_start"
+  }
+}

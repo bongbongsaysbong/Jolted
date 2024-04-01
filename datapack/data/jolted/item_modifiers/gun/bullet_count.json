@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        " ",
+        {
+        "translate": "ui.jolted.gun_description.bullets",
+        "with": [
+          {
+            "score": {
+              "name": "#bullets",
+              "objective": "jolted.dummy"
+            }
+          },
+          {
+            "score": {
+              "name": "#maximum_bullets",
+              "objective": "jolted.dummy"
+            }
+          }
+        ],
+        "color": "#faef8c",
+        "italic": false
+        }
+      ]
+    ],
+    "replace": true
+  }
+]

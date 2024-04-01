@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_boots",
+        "layer1": "item/leather_boots_overlay"
+    },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8362000 }, "model": "jolted:entity/copper_golem/idle" },
+	{ "predicate": { "custom_model_data": 8362000, "damage": 0.1 }, "model": "jolted:entity/copper_golem/walk" },
+	{ "predicate": { "custom_model_data": 8362000, "damage": 0.2 }, "model": "jolted:entity/copper_golem/spin" },
+	{ "predicate": { "custom_model_data": 8362000, "damage": 0.3 }, "model": "jolted:entity/copper_golem/intimidate" },
+	{ "predicate": { "custom_model_data": 8362000, "damage": 0.4 }, "model": "jolted:entity/copper_golem/dance" },
+	{ "predicate": { "custom_model_data": 8362000, "damage": 0.5 }, "model": "jolted:entity/copper_golem/repair" },
+	{ "predicate": { "custom_model_data": 8362000, "damage": 0.6 }, "model": "jolted:entity/copper_golem/wake" },
+	{ "predicate": { "custom_model_data": 8362001 }, "model": "jolted:entity/copper_golem/exposed/idle" },
+	{ "predicate": { "custom_model_data": 8362001, "damage": 0.1 }, "model": "jolted:entity/copper_golem/exposed/walk" },
+	{ "predicate": { "custom_model_data": 8362001, "damage": 0.2 }, "model": "jolted:entity/copper_golem/exposed/spin" },
+	{ "predicate": { "custom_model_data": 8362001, "damage": 0.3 }, "model": "jolted:entity/copper_golem/exposed/intimidate" },
+	{ "predicate": { "custom_model_data": 8362001, "damage": 0.4 }, "model": "jolted:entity/copper_golem/exposed/dance" },
+	{ "predicate": { "custom_model_data": 8362001, "damage": 0.5 }, "model": "jolted:entity/copper_golem/exposed/repair" },
+	{ "predicate": { "custom_model_data": 8362001, "damage": 0.6 }, "model": "jolted:entity/copper_golem/exposed/wake" },
+	{ "predicate": { "custom_model_data": 8362002 }, "model": "jolted:entity/copper_golem/weathered/idle" },
+	{ "predicate": { "custom_model_data": 8362002, "damage": 0.1 }, "model": "jolted:entity/copper_golem/weathered/walk" },
+	{ "predicate": { "custom_model_data": 8362002, "damage": 0.2 }, "model": "jolted:entity/copper_golem/weathered/spin" },
+	{ "predicate": { "custom_model_data": 8362002, "damage": 0.3 }, "model": "jolted:entity/copper_golem/weathered/intimidate" },
+	{ "predicate": { "custom_model_data": 8362002, "damage": 0.4 }, "model": "jolted:entity/copper_golem/weathered/dance" },
+	{ "predicate": { "custom_model_data": 8362002, "damage": 0.5 }, "model": "jolted:entity/copper_golem/weathered/repair" },
+	{ "predicate": { "custom_model_data": 8362002, "damage": 0.6 }, "model": "jolted:entity/copper_golem/weathered/wake" },
+	{ "predicate": { "custom_model_data": 8362003 }, "model": "jolted:entity/copper_golem/oxidized/rest" },
+	{ "predicate": { "custom_model_data": 8362003, "damage": 0.1 }, "model": "jolted:entity/copper_golem/oxidized/rest_loop" }
+  ]
+}

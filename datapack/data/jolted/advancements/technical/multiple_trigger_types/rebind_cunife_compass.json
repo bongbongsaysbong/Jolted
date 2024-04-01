@@ -1,0 +1,75 @@
+{
+  "parent": "jolted:technical/root",
+  "criteria": {
+    "used_lodestone": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": [
+                        "minecraft:compass"
+                      ],
+                      "nbt": "{jolted:{id:\"cunife_compass\"}}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "items": [
+                        "minecraft:compass"
+                      ],
+                      "nbt": "{jolted:{id:\"cunife_compass\"}}"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:lodestone",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "changed_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"jolted.player.has_cunife_compass\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "changed_dimension",
+      "used_lodestone"
+    ]
+  ],
+  "rewards": {
+    "function": "jolted:item/cunife_compass/inventory/rebind_compass"
+  }
+}

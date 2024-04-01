@@ -1,0 +1,22 @@
+{
+  "parent": "jolted:recipes/craft/root",
+  "criteria": {
+    "recipe_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jolted:nbt/assembly_table"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ],
+  "rewards": {
+    "function": "jolted:item/crafted_item",
+    "loot": [
+      "jolted:items/assembly_table"
+    ]
+  }
+}

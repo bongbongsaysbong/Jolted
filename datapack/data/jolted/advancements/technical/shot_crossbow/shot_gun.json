@@ -1,0 +1,21 @@
+{
+  "parent": "jolted:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "nbt": "{jolted:{prevents_crossbow_firing:1b}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jolted:item/gun/shot_crossbow"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

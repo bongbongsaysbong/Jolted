@@ -1,0 +1,42 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:lightning_rod"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:carved_pumpkin",
+          "minecraft:jack_o_lantern"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -2,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:copper_block",
+          "minecraft:exposed_copper",
+          "minecraft:weathered_copper",
+          "minecraft:oxidized_copper",
+          "minecraft:waxed_copper_block",
+          "minecraft:waxed_exposed_copper",
+          "minecraft:waxed_weathered_copper",
+          "minecraft:waxed_oxidized_copper"
+        ]
+      }
+    }
+  }
+]

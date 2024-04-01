@@ -1,0 +1,59 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:1b}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:2b}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:7b}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:8b}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "jolted:block/alloy_forge/input_0"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "jolted:block/alloy_forge/input_1"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "jolted:block/alloy_forge/redstone"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "jolted:block/alloy_forge/output"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "jolted:block/alloy_forge/timer"
+      }
+    ]
+  }
+]
