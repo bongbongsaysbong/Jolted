@@ -15,3 +15,5 @@ item replace block ~ ~ ~ container.13 with compass{CustomModelData:8362001,jolte
 
 # Cunife shotgun
 item replace block ~ ~ ~ container.14 with crossbow{CustomModelData:8362002,jolted:{gui_item:1b,recipe:[{output:{loot_table:"jolted:items/cunife_shotgun"}},{id:"minecraft:tripwire_hook",Count:1b},{id:"minecraft:structure_block",Count:4b,tag:{jolted:{id:"cunife_ingot"}}},{id:"minecraft:flint",Count:1b}]},nucleus:{illegal_item:1b},display:{Name:'{"translate":"item.jolted.cunife_shotgun","italic": false}',Lore:['" "','{"translate":"ui.jolted.crafting.assembly_table","color":"gray","italic": false}','[" ",{"translate":"ui.jolted.crafting.count","color":"#faef8c","italic": false,"with":["4",{"translate":"item.jolted.cunife_ingot"}]}]','[" ",{"translate":"item.minecraft.flint","color":"#faef8c","italic": false}]','[" ",{"translate":"block.minecraft.tripwire_hook","color":"#faef8c","italic": false}]']}}
+
+function #jolted:assembly_table/page/cunife

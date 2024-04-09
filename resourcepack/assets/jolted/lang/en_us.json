@@ -19,6 +19,7 @@
 	"item.jolted.anirrum_coin": "Anirrum Coin",
 	"item.jolted.charonite_coin": "Charonite Coin",
 	"item.jolted.elderskin_inlay_coin": "Elderskin Inlay Coin",
+	"item.jolted.chocolate_coin": "Chocolate Coin",
 	"item.jolted.teeyel_coin": "Teeyel Coin",
 	"item.jolted.rose_gold_sword": "Rose Gold Sword",
 	"item.jolted.rose_gold_pickaxe": "Rose Gold Pickaxe",
@@ -97,10 +98,6 @@
 	"ui.jolted.crafting.alloy_forge": "Alloy Forge Smelting:",
 	"ui.jolted.crafting.assembly_table": "Click (Without Shift) to Craft:",
 	"ui.jolted.crafting.count": "x%s %s",
-
-	"settings.jolted.title": "Settings",
-	"settings.jolted.items": "Give item",
-	"settings.jolted.summon": "Summon mob",
 
 	"jolted.tooltip": "\ua000 %s",
 	"block.jolted.wrecker.name": " ",

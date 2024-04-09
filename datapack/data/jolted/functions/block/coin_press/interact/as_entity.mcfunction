@@ -16,5 +16,7 @@ execute if data storage jolted:storage root.temp.item{id:"minecraft:structure_bl
 execute if data storage jolted:storage root.temp.item{id:"minecraft:structure_block",tag:{manic:{id:"elderskin_inlay"}}} run scoreboard players set #coin_type jolted.dummy 13
 execute if data storage jolted:storage root.temp.item{id:"endlessencore:teeyel_ingot"} run scoreboard players set #coin_type jolted.dummy 14
 
+execute if data storage jolted:storage root.temp.item{id:"minecraft:cocoa_beans"} run scoreboard players set #coin_type jolted.dummy 20
+
 execute if data entity @s item.tag.jolted.text run function jolted:block/coin_press/interact/coin/set_name
 execute if score #coin_type jolted.dummy matches 1.. run function jolted:block/coin_press/interact/coin/create_coin

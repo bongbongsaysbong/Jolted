@@ -19,6 +19,7 @@
 	"item.jolted.anirrum_coin": "魂钢币",
 	"item.jolted.charonite_coin": "夏龙石币",
 	"item.jolted.elderskin_inlay_coin": "末影镶嵌皮币",
+	"item.jolted.chocolate_coin": "巧克力硬币",
 	"item.jolted.teeyel_coin": "提耶尔币",
 	"item.jolted.rose_gold_sword": "玫瑰金剑",
 	"item.jolted.rose_gold_pickaxe": "玫瑰金镐",
@@ -98,9 +99,9 @@
 	"ui.jolted.crafting.assembly_table": "点击 (不需要 Shift) 制作:",
 	"ui.jolted.crafting.count": "x%s %s",
 
-	"settings.jolted.title": "设置",
-	"settings.jolted.items": "给予物品",
-	"settings.jolted.summon": "生成生物",
+	"settings.nucleus.title": "设置",
+	"settings.nucleus.items": "给予物品",
+	"settings.nucleus.summon": "生成生物",
 
 	"jolted.tooltip": "\ua000 %s",
 	"block.jolted.wrecker.name": " ",

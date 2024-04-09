@@ -1,4 +1,3 @@
-execute if data storage nucleus:storage root.temp{vanilla_item:1b,item:{id:"minecraft:clay"}} run return 1
 execute if data storage nucleus:storage root.temp{vanilla_item:1b,item:{id:"minecraft:stone"}} run return 1
 execute if data storage nucleus:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cobblestone"}} run return 1
 execute if data storage nucleus:storage root.temp{vanilla_item:1b,item:{id:"minecraft:blackstone"}} run return 1

@@ -1,4 +1,4 @@
-execute if data entity @s item.tag.jolted.items[0] run return 0
+execute if data entity @s item.tag.jolted.items[0] run return run scoreboard players set #valid jolted.dummy 0
 # this line controls how many items can be in its memory
 # i nerfed it from 64 to 1 because it might be lagging idk
 

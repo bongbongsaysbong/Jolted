@@ -15,3 +15,5 @@ item replace block ~ ~ ~ container.13 with crossbow{CustomModelData:8362004,jolt
 
 # Iron bullet
 item replace block ~ ~ ~ container.14 with structure_block{CustomModelData:8362015,jolted:{gui_item:1b,recipe:[{output:{loot_table:"jolted:technical/items/iron_bullet"}},{id:"minecraft:iron_nugget",Count:8b},{id:"minecraft:gunpowder",Count:1b}]},nucleus:{illegal_item:1b},display:{Name:'{"translate":"item.jolted.iron_bullet","italic": false,"color":"white"}',Lore:['" "','{"translate":"ui.jolted.crafting.assembly_table","color":"gray","italic": false}','[" ",{"translate":"ui.jolted.crafting.count","color":"#faef8c","italic": false,"with":["8",{"translate":"item.minecraft.iron_nugget"}]}]','[" ",{"translate":"item.minecraft.gunpowder","color":"#faef8c","italic": false}]']}} 4
+
+function #jolted:assembly_table/page/default

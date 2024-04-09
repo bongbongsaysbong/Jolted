@@ -329,8 +329,8 @@
                 {
                   "nbt": "root.temp.coin_name",
                   "storage": "jolted:storage",
-                  "color": "#faef8c",
                   "interpret": true,
+                  "color": "#faef8c",
                   "italic": true
                 }
               ],
@@ -359,12 +359,17 @@
           "lore": [
             {
               "translate": "jolted.tooltip",
-              "font": "jolted:tooltip",
-              "color": "white",
-              "italic": false,
               "with": [
-                {"translate":"pack.jolted","font":"minecraft:default","color":"#ffae17","italic":true}
-              ]
+                {
+                  "translate": "pack.jolted",
+                  "color": "#ffae17",
+                  "font": "minecraft:default",
+                  "italic": true
+                }
+              ],
+              "color": "white",
+              "font": "jolted:tooltip",
+              "italic": false
             }
           ],
           "replace": false
@@ -430,7 +435,144 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#coin_type"
+              },
+              "score": "jolted.dummy"
+            },
+            "range": 20
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#coin_type"
+            },
+            "score": "jolted.dummy"
+          },
+          "range": 20
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:8362000,jolted:{id:\"chocolate_coin\"},display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.jolted.chocolate_coin\"}'}}"
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": 4
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "selector": "@p[tag=jolted.interacting_player]",
+              "color": "#f7dc60",
+              "italic": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#coin_has_name"
+                  },
+                  "score": "jolted.dummy"
+                },
+                "range": 1
+              }
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "item.jolted.coin.name_and_player",
+              "with": [
+                {
+                  "selector": "@p[tag=jolted.interacting_player]"
+                },
+                {
+                  "nbt": "root.temp.coin_name",
+                  "storage": "jolted:storage",
+                  "interpret": true,
+                  "color": "#faef8c",
+                  "italic": true
+                }
+              ],
+              "color": "#f7dc60",
+              "italic": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#coin_has_name"
+                },
+                "score": "jolted.dummy"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "translate": "jolted.tooltip",
+              "with": [
+                {
+                  "translate": "pack.jolted",
+                  "color": "#ffae17",
+                  "font": "minecraft:default",
+                  "italic": true
+                }
+              ],
+              "color": "white",
+              "font": "jolted:tooltip",
+              "italic": false
+            }
+          ],
+          "replace": false
+        }
       ]
     }
-  ]
+  ],
+  "random_sequence": "jolted:technical/items/coin"
 }
