@@ -8,4 +8,4 @@ scoreboard players operation #charge_timer jolted.dummy *= #10 nucleus.dummy
 scoreboard players operation #charge_timer jolted.dummy /= #125 nucleus.dummy
 execute store result block ~ ~ ~ Items[{Slot:4b}].tag.CustomModelData int 1 run scoreboard players add #charge_timer jolted.dummy 8362001
 
-execute if predicate nucleus:chance/0.3 positioned ^ ^ ^-0.5 run particle dust_color_transition 0.808 0.043 0.031 1 0.569 0.000 0.000 ~ ~ ~ 0.25 0.25 0.25 1 2 normal
+execute if predicate nucleus:chance/0.3 positioned ^ ^ ^0.5 run particle dust_color_transition 0.808 0.043 0.031 1 0.569 0.000 0.000 ~ ~ ~ 0.25 0.25 0.25 1 2 normal
